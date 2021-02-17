@@ -1,4 +1,4 @@
-### TravelBlog_Projects - Use this link to see the output of the Travel Blog Website. (https://travelblog-harrshini.herokuapp.com/)
+### TravelBlog_Projects - (https://travelblog-harrshini.herokuapp.com/)
 
 # Project plan
 The goal for this project is to build a travel blog. 
