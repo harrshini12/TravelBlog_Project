@@ -1,0 +1,79 @@
+body {
+  font-family: sans-serif;
+  background: #e5e5e5;
+}
+#map {
+  height: 400px;
+  width: 100%;
+}
+#img1 {
+  width: 35px;
+  height: 40px;
+}
+#img2 {
+  width: 35px;
+  height: 40px;
+}
+#img3 {
+  width: 35px;
+  height: 40px;
+}
+#blogbutton {
+  background-color: white;
+  padding: 3px;
+  border-radius: 10px;
+}
+#blogbutton:hover {
+  background-color: gray;
+}
+#destinationDiv {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: rgb(29, 130, 177);
+  border-radius: 5px;
+  width: 500px;
+  margin-left: 50px;
+}
+#desSection {
+  background-color: white;
+  position: relative;
+  width: 450px;
+  padding: 20px;
+  margin: 30px;
+  border-radius: 5px;
+}
+#desName {
+  text-align: center;
+  margin-bottom: 5px;
+}
+#desDate {
+  text-align: center;
+  margin-bottom: 5px;
+}
+#desDescription {
+  text-align: justify;
+  margin-bottom: 5px;
+}
+#temp-par {
+  text-align: center;
+  margin-bottom: 5px;
+}
+#removebutton {
+  background-color: black;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 190px;
+  padding: 8px;
+  border-radius: 10px;
+}
+#city {
+  text-align: center;
+}
+#country {
+  text-align: center;
+}
+#year {
+  text-align: center;
+}

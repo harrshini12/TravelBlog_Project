@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="font-sans">
+    <div id="app" class="m-5">
+      <p class="font-black text-5xl text-center p-3 mb-6">Travel Planner</p>
+      <div id="links">
+        <a class="bg-white hover:bg-gray-400 rounded-full m-7 p-3" href="index.html">Home</a>
+        <a class="bg-white hover:bg-gray-400 rounded-full m-7 p-3" href="Blog.html">Blog</a>
+        <a class="bg-white hover:bg-gray-400 rounded-full m-7 p-3" href="#">Trip planner</a>
+      </div>
+        <img id="img" class="mr-3 ml-3 bg-cover mt-6" src="images/PlannerPageImage.jpg"/>
+    <div id="fullform">
+        <p class="text-center text-2xl italic mt-6 mb-6">Dream Destination Planner</p>
+      <form id="form"  />
+        <p class="ml-20 font-black">Your trip plan</p>
+        <input class="block mt-5 h-10 ml-44 pl-5 rounded-lg" type="text" placeholder="Country" id="country-input" required />
+        <input class="block mt-5 h-10 ml-44 pl-5 rounded-lg" type="text" placeholder="City" id="city-input" required />
+        <input class="block mt-5 h-10 ml-44 pl-5 rounded-lg" type="number" placeholder="Year of visit" id="year-of-visit-input" required />
+        <button class="px-4 py-1 mt-5 mb-6 ml-52 text-white font-light bg-gray-900 rounded" type="submit" id="btn-add-to-list">Add to the list</button>
+      </form>
+    </div>
+      <p class="ml-20 mb-6 font-black">The list of Countries to visit</p>
+    <div id="user_TripPlan_div"></div>
+    <footer id="footer" class="bg-gray-400 h-55">
+        <div class="inline-block ml-20 mr-96 mt-6 mb-6">
+          <p class="font-bold">About us</p>
+          <p>Burp and break is a travel and cooking channel.</p>
+          <p>Check out my youtube channel Burp and break</p>
+        </div>
+        <div class="inline-block ml-20 mr-24 mt-6 mb-6">
+          <p>Follow us @</p>
+          <a
+            href="https://www.youtube.com/channel/UCKSCeCEb8pdin-nJ8kxz1yQ?view_as=subscriber"
+            target="_blank"
+            ><img id="img1" class="inline-block" src="images/youtubeIcon.jpg"
+          /></a>
+          <a href="https://www.facebook.com/burpandbreak" target="_blank"
+            ><img id="img2" class="inline-block" src="images/FacebookImage.jpg"
+          /></a>
+          <a href="https://www.instagram.com/burpandbreak/" target="_blank"
+            ><img id="img3" class="inline-block" src="images/InstaImage.jpg"
+          /></a>
+        </div>
+    </footer>
+    </div>
+    <script type="text/javascript" src="addremove.js"></script>
+  </body>
+</html>
