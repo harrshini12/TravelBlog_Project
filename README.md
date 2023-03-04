@@ -1,4 +1,4 @@
-### TravelBlog_Projects - https://travelblog-harrshini.herokuapp.com/
+### TravelBlog_Projects
 
 # Project plan
 The goal for this project is to build a travel blog. 
